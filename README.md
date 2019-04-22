@@ -6,7 +6,7 @@ Create a Django scrumboard app with AngularJS frontend and a Django rest-framewo
 ```
 Summary - Django Side
 1. Installing Python 3 with Home Brew on a Mac
-2. Setting up a Virtual Environement on Command Line 
+2. Setting up a Virtual Environment on Command Line 
 3. Installing Django
 4. Starting a Django Project
 5. Running the Server
@@ -22,11 +22,10 @@ $ brew install python3
 
 #### 2. Setting up a Virtual Environment and running it on Command Line  
 ```
-pip install virtualenv
-virtualenv VENV
-python3 -m VENV djangular
-cd djangular
-. bin/activate
+$ pip install virtualenv
+$ python3 -m venv djangular
+$ cd djangular
+$ . bin/activate
 ```
 
 
