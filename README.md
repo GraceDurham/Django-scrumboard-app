@@ -31,20 +31,21 @@ $ . bin/activate
 
 #### 3. Installing Django 
 ```
-pip install django
+$ pip install django
 
 ```
 
 
 #### 4. Starting a Django Project
 ```
-django-admin.py startproject djangular
+$ django-admin.py startproject djangular
+$ cd djangular
 
 ```
 
 #### 5. Running the server
 ```
-python manage.py runserver
+$ python manage.py runserver
 
 ```
 
