@@ -52,6 +52,22 @@ Copy http://127.0.0.1:8000/ and paste url in browser to see Django welcome page
 ```
 
 
+```
+Summary - Setting up Backend: Django and REST 
+Creating an app, models, and a database
 
+1. Creating a Django App
+2. Adding Model Classes 
+3. Running Database Migrations
+
+```
+
+#### 1. Creating a Django App 
+```
+$ python manage.py startapp scrumboard
+Add 'scrumboard' under INSTALLED_APPS in settings.py in the djangular directory using your text editor and save 
+It should like look this 
+
+```
 
 
