@@ -67,7 +67,9 @@ Creating an app, models, and a database
 $ python manage.py startapp scrumboard
 Add 'scrumboard' under INSTALLED_APPS in settings.py in the djangular directory using your text editor and save 
 It should like look this 
-
 ```
+![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/scrumboard%20app.png)
+
+
 
 
