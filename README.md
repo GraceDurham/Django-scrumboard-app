@@ -47,6 +47,8 @@ $ cd djangular
 ```
 $ python manage.py runserver
 
+Copy http://127.0.0.1:8000/ and paste url in browser to see Django welcome page
+
 ```
 
 
