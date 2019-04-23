@@ -70,6 +70,15 @@ It should like look this
 ```
 ![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/scrumboard%20app.png)
 
+#### 2. Adding Model Classes 
+```
+In models.py in scrumboard directory add 2 classes Class List and Class Card
+It should like look this 
+```
+
+![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/models.png)
+
+
 
 
 
