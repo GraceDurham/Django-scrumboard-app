@@ -78,6 +78,12 @@ It should like look this
 
 ![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/models.png)
 
+#### 2. Running Database Migrations 
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
 
 
 
