@@ -59,6 +59,8 @@ Creating an app, models, and a database
 1. Creating a Django App
 2. Adding Model Classes 
 3. Running Database Migrations
+4. Update Model Class Card with a foreign key and additional properties 
+5. Run Database Migrations
 
 ```
 
@@ -78,7 +80,21 @@ It should like look this
 
 ![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/models.png)
 
-#### 2. Running Database Migrations 
+#### 3. Running Database Migrations 
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+#### 4. Update Model Class Card with a foreign key and additional properties
+```
+Using text editor in models.py in scrumboard directory
+Add List as a foreign key in class Card
+Add story_points and business_values under class Card
+It should look like this 
+```
+![alt text](https://github.com/GraceDurham/Django-scrumboard-app/blob/master/Add%20foreign%20key%2C%20story_points%2C%20and%20business_value%20.png)
+
+#### 5. Run Database Migrations
 ```
 $ python manage.py makemigrations
 $ python manage.py migrate
